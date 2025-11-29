@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './MediaInput/media_input.css'
+import './media_input.css'
 const MediaInput = ()=>{
 
     const [fileName,setFileName] = useState()
@@ -26,8 +26,8 @@ const MediaInput = ()=>{
     return(
         <div className='main-container'>
             <div className="form-container">
-                <form>
-                    <input type="file" accept=".csv" className="input-field" onChange={handleFileUpload}/>
+                <form method='post' action='http://localhost:8000/addUsers' enctype="multipart/form-data">
+                    <input type="file" name='csvFile' accept=".csv" className="input-field" onChange={handleFileUpload}/>
                     <button type='submit' className='submit-btn'>Convert</button>
                 </form>
             </div>
