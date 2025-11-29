@@ -9,5 +9,5 @@ HOW TO RUN
 # Go to "/backend"
 --> cd /backend
 # run npm commands
---> npm i pg, dotenv
+--> npm i pg, dotenv;
 --> node server.js
