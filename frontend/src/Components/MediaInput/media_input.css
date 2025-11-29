@@ -1,0 +1,25 @@
+.main-container{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.form-container{
+    padding:20px;
+    border: 2px dashed #888;
+    width: 500px;
+    height: 100px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    
+
+    
+
+}
+
+.input-field{
+    margin-top:10px;
+}
